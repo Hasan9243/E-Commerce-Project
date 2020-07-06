@@ -151,7 +151,7 @@ while($row=mysqli_fetch_array($query))
 		</div> <!-- /.row -->
 		</form>
 		<!-- ============================================== BRANDS CAROUSEL ============================================== -->
-<?php echo include('includes/brands-slider.php');?>
+
 <!-- ============================================== BRANDS CAROUSEL : END ============================================== -->	</div><!-- /.container -->
 </div><!-- /.body-content -->
 <?php include('includes/footer.php');?>
@@ -176,19 +176,7 @@ while($row=mysqli_fetch_array($query))
 	
 	<script src="switchstylesheet/switchstylesheet.js"></script>
 	
-	<script>
-		$(document).ready(function(){ 
-			$(".changecolor").switchstylesheet( { seperator:"color"} );
-			$('.show-theme-options').click(function(){
-				$(this).parent().toggleClass('open');
-				return false;
-			});
-		});
-
-		$(window).bind("load", function() {
-		   $('.show-theme-options').delay(2000).trigger('click');
-		});
-	</script>
+	
 	<!-- For demo purposes – can be removed on production : End -->
 </body>
 </html>

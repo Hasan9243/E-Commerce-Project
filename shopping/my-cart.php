@@ -330,7 +330,7 @@ echo "Your shopping Cart is empty";
 </div>			</div>
 		</div> 
 		</form>
-<?php echo include('includes/brands-slider.php');?>
+
 </div>
 </div>
 <?php include('includes/footer.php');?>
@@ -355,19 +355,7 @@ echo "Your shopping Cart is empty";
 	
 	<script src="switchstylesheet/switchstylesheet.js"></script>
 	
-	<script>
-		$(document).ready(function(){ 
-			$(".changecolor").switchstylesheet( { seperator:"color"} );
-			$('.show-theme-options').click(function(){
-				$(this).parent().toggleClass('open');
-				return false;
-			});
-		});
-
-		$(window).bind("load", function() {
-		   $('.show-theme-options').delay(2000).trigger('click');
-		});
-	</script>
+	
 	<!-- For demo purposes – can be removed on production : End -->
 </body>
 </html>

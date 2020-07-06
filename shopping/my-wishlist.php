@@ -146,7 +146,7 @@ $num=mysqli_num_rows($rt);
 						<?php } ?>
 						<div class="price">Tk. 
 							<?php echo htmlentities($row['pprice']);?>.00
-							<span>900.00</span>
+							
 						</div>
 					</td>
 					<td class="col-md-2">
@@ -167,7 +167,7 @@ $num=mysqli_num_rows($rt);
 	</div>
 </div>			</div><!-- /.row -->
 		</div><!-- /.sigin-in-->
-	<?php include('includes/brands-slider.php');?>
+	
 </div>
 </div>
 <?php include('includes/footer.php');?>

@@ -227,6 +227,8 @@ while ($row=mysqli_fetch_array($ret))
 									
 			</div><!-- /.product-price -->
 			
+			
+			
 		</div><!-- /.product-info -->
 					<div class="cart clearfix animate-effect">
 				<div class="action">
